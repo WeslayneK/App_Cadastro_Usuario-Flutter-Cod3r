@@ -87,12 +87,12 @@ void didChangeDependencies(){
               ),
               TextFormField(
                 initialValue: _formData['email'],
-                decoration: InputDecoration(labelText: 'E-mail'),
+                decoration: const InputDecoration(labelText: 'E-mail'),
                 onSaved: (value) => _formData['email'] = value!,
               ),
               TextFormField(
                 initialValue: _formData['avatarUrl'],
-                decoration: InputDecoration(labelText: 'URL do Avatar'),
+                decoration: const InputDecoration(labelText: 'URL do Avatar'),
                 onSaved: (value) => _formData['avatarUrl'] = value!,
               ),
             ],
